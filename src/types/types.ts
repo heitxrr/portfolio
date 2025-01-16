@@ -9,5 +9,15 @@ import { StaticImageData } from "next/image";
 // };
 
 export type RodapeProps = {
-    img: StaticImageData;
-}
+  img: StaticImageData;
+};
+
+export type CabecalhoProps = {
+  gray?: boolean;
+};
+
+export type LinkPadraoProps = {
+  children: React.ReactNode;
+  href: string;
+  theme?: string;
+};
