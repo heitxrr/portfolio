@@ -8,7 +8,7 @@ export default function LinkPadrao(props: LinkPadraoProps) {
     return (
       <Link
         href={href}
-        className="inline-block text-base font-bold px-4 py-2 rounded-md cursor-pointer bg-gray-700 text-white"
+        className="inline-block text-base font-bold px-4 py-2 rounded-md cursor-pointer bg-gray-700 text-white hover:bg-gray-600"
       >
         {children}
       </Link>
@@ -17,7 +17,7 @@ export default function LinkPadrao(props: LinkPadraoProps) {
     return (
       <Link
         href={href}
-        className="inline-block text-base font-bold px-4 py-2 rounded-md cursor-pointer bg-blue-800 text-white"
+        className="inline-block text-base font-bold px-4 py-2 rounded-md cursor-pointer bg-blue-800 text-white hover:bg-blue-700"
       >
         {children}
       </Link>
@@ -26,7 +26,7 @@ export default function LinkPadrao(props: LinkPadraoProps) {
     return (
       <Link
         href={href}
-        className="inline-block text-base font-bold px-4 py-2 rounded-md cursor-pointer"
+        className="inline-block text-base font-bold px-4 py-2 rounded-md cursor-pointer hover:bg-gray-200"
       >
         {children}
       </Link>
