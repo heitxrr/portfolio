@@ -16,6 +16,13 @@ export type CabecalhoProps = {
   gray?: boolean;
 };
 
+export type BalaoSobreMimProps = {
+  title: string;
+  description: string;
+  img: StaticImageData;
+}
+
+
 export type LinkPadraoProps = {
   children: React.ReactNode;
   href: string;
